@@ -1,0 +1,234 @@
+{
+  "users": [
+    {
+      "_id": "73c960bba4395ae9927167de",
+      "name": "Vedant Organizer",
+      "email": "organizer@example.com",
+      "password": "$2b$10$rKT0K5Zg/9PbE9S.SdFsv.JeXh4lHtFkj.c8WLFGqotVoNnM5bGjK",
+      "role": "ORGANIZER",
+      "createdAt": "2026-09-26T05:47:32.246Z",
+      "updatedAt": "2026-09-26T05:47:32.246Z"
+    },
+    {
+      "_id": "2234d4671833d976d416e4ca",
+      "name": "Kolhapur Community Trust",
+      "email": "trust@kolhapur.org",
+      "password": "$2b$10$rKT0K5Zg/9PbE9S.SdFsv.JeXh4lHtFkj.c8WLFGqotVoNnM5bGjK",
+      "role": "ORGANIZER",
+      "createdAt": "2026-09-26T05:47:32.246Z",
+      "updatedAt": "2026-09-26T05:47:32.246Z"
+    },
+    {
+      "_id": "ea2cae2fa570f202a790342c",
+      "name": "Vedant Kadam",
+      "email": "vedant@example.com",
+      "password": "$2b$10$rKT0K5Zg/9PbE9S.SdFsv.JeXh4lHtFkj.c8WLFGqotVoNnM5bGjK",
+      "role": "USER",
+      "createdAt": "2026-09-26T05:47:32.246Z",
+      "updatedAt": "2026-09-26T05:47:32.246Z"
+    },
+    {
+      "_id": "876122acd92c44240e7a2030",
+      "name": "Rahul Sharma",
+      "email": "rahul@example.com",
+      "password": "$2b$10$rKT0K5Zg/9PbE9S.SdFsv.JeXh4lHtFkj.c8WLFGqotVoNnM5bGjK",
+      "role": "USER",
+      "createdAt": "2026-09-26T05:47:32.246Z",
+      "updatedAt": "2026-09-26T05:47:32.246Z"
+    },
+    {
+      "_id": "165cd9d4f1e10d433759eaef",
+      "name": "Amit Patel",
+      "email": "amit@example.com",
+      "password": "$2b$10$rKT0K5Zg/9PbE9S.SdFsv.JeXh4lHtFkj.c8WLFGqotVoNnM5bGjK",
+      "role": "USER",
+      "createdAt": "2026-09-26T05:47:32.246Z",
+      "updatedAt": "2026-09-26T05:47:32.246Z"
+    },
+    {
+      "_id": "e8a656e608e5684b7309c0d6",
+      "name": "Priya Joshi",
+      "email": "priya@example.com",
+      "password": "$2b$10$rKT0K5Zg/9PbE9S.SdFsv.JeXh4lHtFkj.c8WLFGqotVoNnM5bGjK",
+      "role": "USER",
+      "createdAt": "2026-09-26T05:47:32.246Z",
+      "updatedAt": "2026-09-26T05:47:32.246Z"
+    },
+    {
+      "_id": "user_1790485841566_wkcbj6",
+      "name": "Test User",
+      "email": "user@gmail.com",
+      "password": "$2b$10$.L0nkoeY6idDZIuey29EhumXC.EPpFkHgVPUEugSeg8zqpKWJB6Ua",
+      "role": "USER",
+      "createdAt": "2026-09-27T05:10:41.566Z"
+    },
+    {
+      "_id": "user_1790485997997_wgqvir",
+      "name": "Test Organizer",
+      "email": "organizer@gmail.com",
+      "password": "$2b$10$hOI6p6Z/qKXOS0zOdGnAEe/YDIwgXk7Pr6St2JtA8UrxCbxET8pN.",
+      "role": "ORGANIZER",
+      "createdAt": "2026-09-27T05:13:17.997Z"
+    }
+  ],
+  "events": [
+    {
+      "_id": "77cfbbaaeb9d40bd29f80850",
+      "title": "Community Clean-up Drive",
+      "description": "A local environmental clean-up and tree plantation drive around Rankala Lake Promenade and public parks.",
+      "category": "Environment",
+      "date": "2026-10-15",
+      "time": "09:00",
+      "location": "Rankala Lake Promenade",
+      "city": "Kolhapur",
+      "image": "/src/assets/images/event_cleanup_drive_1790401425941.jpg",
+      "maxParticipants": 100,
+      "organizer": "73c960bba4395ae9927167de",
+      "createdAt": "2026-09-26T05:47:32.246Z",
+      "updatedAt": "2026-09-26T05:47:32.246Z"
+    },
+    {
+      "_id": "6a82c9407123125ed08b211b",
+      "title": "Blood Donation Camp",
+      "description": "Annual life-saving voluntary blood donation initiative organized in collaboration with District Civil Hospital.",
+      "category": "Health",
+      "date": "2026-10-20",
+      "time": "10:00",
+      "location": "Town Hall Grounds, Near Bhavani Mandap",
+      "city": "Kolhapur",
+      "image": "/src/assets/images/event_blood_donation_1790401441785.jpg",
+      "maxParticipants": 50,
+      "organizer": "73c960bba4395ae9927167de",
+      "createdAt": "2026-09-26T05:47:32.246Z",
+      "updatedAt": "2026-09-26T05:47:32.246Z"
+    },
+    {
+      "_id": "9992c7087c1aca17cf593ac5",
+      "title": "Full-Stack Web & Cloud Workshop",
+      "description": "Hands-on weekend masterclass covering REST API design, MongoDB modeling, and modern React full-stack deployment for college engineering students.",
+      "category": "Education",
+      "date": "2026-11-05",
+      "time": "14:00",
+      "location": "COEP Technological University Auditorium, Shivajinagar",
+      "city": "Pune",
+      "image": "/src/assets/images/event_tech_workshop_1790401456887.jpg",
+      "maxParticipants": 85,
+      "organizer": "2234d4671833d976d416e4ca",
+      "createdAt": "2026-09-26T05:47:32.246Z",
+      "updatedAt": "2026-09-26T05:47:32.246Z"
+    },
+    {
+      "_id": "1fb93048991a2662a608bf50",
+      "title": "Heritage Walk & Folk Culture Fest",
+      "description": "Guided architectural walk through historic monuments, traditional craft exhibits, and folk art performances in the heart of the historic quarter.",
+      "category": "Culture",
+      "date": "2026-11-12",
+      "time": "07:30",
+      "location": "Mahalaxmi Temple Environs, Old City",
+      "city": "Kolhapur",
+      "image": "/src/assets/images/event_heritage_walk_1790401468426.jpg",
+      "maxParticipants": 120,
+      "organizer": "2234d4671833d976d416e4ca",
+      "createdAt": "2026-09-26T05:47:32.246Z",
+      "updatedAt": "2026-09-26T05:47:32.246Z"
+    },
+    {
+      "_id": "d472232753f920110185e6dd",
+      "title": "Coastal Marine Conservation Drive",
+      "description": "Volunteer shoreline cleanup and plastic-free marine ecosystem awareness campaign with local environmental clubs.",
+      "category": "Environment",
+      "date": "2026-11-22",
+      "time": "07:00",
+      "location": "Marine Drive Promenade, South Mumbai",
+      "city": "Mumbai",
+      "image": "/src/assets/images/event_cleanup_drive_1790401425941.jpg",
+      "maxParticipants": 150,
+      "organizer": "73c960bba4395ae9927167de",
+      "createdAt": "2026-09-26T05:47:32.246Z",
+      "updatedAt": "2026-09-26T05:47:32.246Z"
+    },
+    {
+      "_id": "d2cfe59caa87bb27519632cd",
+      "title": "Open Source AI & Cloud Meetup",
+      "description": "Community gathering of software developers and students discussing modern open-source web frameworks, APIs, and scalable infrastructure.",
+      "category": "Tech",
+      "date": "2026-11-28",
+      "time": "11:00",
+      "location": "Cubbon Park Public Library Hall, Ashok Nagar",
+      "city": "Bengaluru",
+      "image": "/src/assets/images/event_tech_workshop_1790401456887.jpg",
+      "maxParticipants": 90,
+      "organizer": "2234d4671833d976d416e4ca",
+      "createdAt": "2026-09-26T05:47:32.246Z",
+      "updatedAt": "2026-09-26T05:47:32.246Z"
+    },
+    {
+      "_id": "event_1790494819855_uu6ll9",
+      "title": "Community Clean-up Drive",
+      "description": "A local environmental clean-up event.",
+      "date": "2026-10-15",
+      "location": "Community Center",
+      "maxParticipants": 100,
+      "organizer": "user_1790485997997_wgqvir",
+      "createdAt": "2026-09-27T07:40:19.856Z"
+    },
+    {
+      "_id": "event_1790497663333_c3ff42",
+      "title": "Community Clean-up Drive",
+      "description": "A local environmental clean-up event.",
+      "date": "2026-10-15",
+      "location": "Community Center",
+      "maxParticipants": 100,
+      "organizer": "user_1790485997997_wgqvir",
+      "createdAt": "2026-09-27T08:27:43.333Z"
+    },
+    {
+      "_id": "event_1790497692163_gcss3o",
+      "title": "Community Clean-up Drive",
+      "description": "A local environmental clean-up event.",
+      "date": "2026-10-15",
+      "location": "Community Center",
+      "maxParticipants": 100,
+      "organizer": "user_1790485997997_wgqvir",
+      "createdAt": "2026-09-27T08:28:12.163Z"
+    }
+  ],
+  "registrations": [
+    {
+      "_id": "f2995c7a96e3ed516660c8ff",
+      "user": "876122acd92c44240e7a2030",
+      "event": "77cfbbaaeb9d40bd29f80850",
+      "registeredAt": "2026-09-23T05:47:32.248Z"
+    },
+    {
+      "_id": "9dc8d138a9f1bd2e8196d766",
+      "user": "165cd9d4f1e10d433759eaef",
+      "event": "77cfbbaaeb9d40bd29f80850",
+      "registeredAt": "2026-09-24T05:47:32.248Z"
+    },
+    {
+      "_id": "becd89bf95d148ec37368fa6",
+      "user": "e8a656e608e5684b7309c0d6",
+      "event": "77cfbbaaeb9d40bd29f80850",
+      "registeredAt": "2026-09-25T05:47:32.248Z"
+    },
+    {
+      "_id": "35da33d2724c15ea981a6d36",
+      "user": "ea2cae2fa570f202a790342c",
+      "event": "6a82c9407123125ed08b211b",
+      "registeredAt": "2026-09-25T17:47:32.248Z"
+    },
+    {
+      "_id": "827e4b9d66bfcae37321308b",
+      "user": "876122acd92c44240e7a2030",
+      "event": "6a82c9407123125ed08b211b",
+      "registeredAt": "2026-09-25T23:47:32.248Z"
+    },
+    {
+      "_id": "59f0122abb378969f4fa6ea9",
+      "user": "ea2cae2fa570f202a790342c",
+      "event": "d2cfe59caa87bb27519632cd",
+      "registeredAt": "2026-09-26T05:55:09.669Z"
+    }
+  ]
+}

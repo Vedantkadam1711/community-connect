@@ -1,0 +1,18 @@
+$kind: http-request
+description: ""
+url: http://localhost:5000/api/auth/register
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Test Organizer\",\r
+
+    \    \"email\": \"organizer@gmail.com\",\r
+
+    \    \"password\": \"password123\",\r
+
+    \    \"role\": \"ORGANIZER\"\r
+
+    }"
+order: 3978519735823113

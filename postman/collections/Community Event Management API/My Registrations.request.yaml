@@ -1,0 +1,9 @@
+$kind: http-request
+description: ""
+url: http://localhost:5000/api/events/my-registrations
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_1b8i}}"
+order: 4502850154019908

@@ -1,0 +1,28 @@
+$kind: http-request
+description: ""
+url: http://localhost:5000/api/events
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"Community Clean-up Drive\",\r
+
+    \    \"description\": \"A local environmental clean-up event.\",\r
+
+    \    \"category\": \"Environment\",\r
+
+    \    \"date\": \"2026-10-15\",\r
+
+    \    \"time\": \"09:00 AM\",\r
+
+    \    \"location\": \"Community Center\",\r
+
+    \    \"maxParticipants\": 100\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0pgm}}"
+order: 4487347987253738

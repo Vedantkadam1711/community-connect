@@ -1,0 +1,28 @@
+$kind: http-request
+description: ""
+url: http://localhost:5000/api/events/event_1790494844383_5j9je1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"Community Mega Clean-up Drive\",\r
+
+    \    \"description\": \"Large community environmental clean-up event.\",\r
+
+    \    \"category\": \"Environment\",\r
+
+    \    \"date\": \"2026-10-20\",\r
+
+    \    \"time\": \"10:00 AM\",\r
+
+    \    \"location\": \"City Park\",\r
+
+    \    \"maxParticipants\": 150\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0pgm}}"
+order: 4498704130876050
